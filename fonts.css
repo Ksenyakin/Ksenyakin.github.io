@@ -1,0 +1,18 @@
+@font-face { 
+    font-family:"Lato";
+    src: url(/fonts/LatoRegular.ttf);
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face { 
+    font-family: "LatoBold";
+    src: url("/fonts/LatoBold.ttf");
+    font-style: normal;
+    font-weight: 700;
+}
+@font-face{
+    font-family: "LatoLight";
+    src: url(/fonts/LatoLight.ttf);
+    font-style: normal;
+    font-weight: 300;
+}
