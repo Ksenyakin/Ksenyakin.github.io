@@ -18,6 +18,7 @@ button {
   padding-left: calc(50% - 570px);
   padding-right: calc(50% - 570px);
 }
+
 .logo {
   display: flex;
   gap: 20px;
@@ -42,8 +43,8 @@ button {
   padding-right: calc(50% - 800px);
   gap: 65px;
 }
-.content_photo{
-    width: 50%;
+.content_photo {
+  width: 50%;
 }
 
 .text {
@@ -78,14 +79,13 @@ button {
 .offer3 {
   position: relative;
 }
-.offer_img1{
+.offer_img1 {
   position: relative;
 }
-.offer_big{
+.offer_big {
   min-height: 180px;
   grid-column: 1 / -1;
   overflow: hidden;
-
 }
 .overlay_img {
   position: absolute;
@@ -132,7 +132,6 @@ button {
   font-size: 30px;
   line-height: 36px;
   color: #222222;
-
 }
 .text_products p {
   padding-top: 6px;
@@ -155,13 +154,10 @@ button {
 
 .products1 {
   background: url(/img/Background.png);
-
 }
 
-.img_products{
+.img_products {
   padding-left: 109px;
-  
-  
 }
 .products1 p {
   font-weight: 300;
@@ -213,7 +209,6 @@ button {
   color: #f26376;
 }
 
-
 /* Планшетная версия */
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -223,13 +218,12 @@ button {
     margin: 0;
     padding-left: calc(50% - 367px);
     padding-right: calc(50% - 367px);
-
   }
 
-  .logo{
+  .logo {
     padding-left: 32px;
   }
-  .right_menu{
+  .right_menu {
     padding-right: 40px;
   }
   .main {
@@ -241,12 +235,12 @@ button {
   .content img {
     align-content: flex-start;
   }
-  .text h1{
-      font-size: 44px;
-      /* line-height: 53px; */
-      line-height: 40px;
+  .text h1 {
+    font-size: 44px;
+    /* line-height: 53px; */
+    line-height: 40px;
   }
-  .ofluxer{
+  .ofluxer {
     font-size: 24px;
     /* line-height: 29px; */
   }
@@ -258,14 +252,14 @@ button {
     padding-top: 64px;
     padding-bottom: 96px;
   }
-  .offer_big{
+  .offer_big {
     min-height: 180px;
     grid-column: 1 / -1;
     width: 100%;
     height: auto;
     overflow: hidden;
   }
-  .photo_products{
+  .photo_products {
     grid-template-columns: repeat(2, 360px);
     gap: 16px;
   }
